@@ -1,7 +1,8 @@
+import React from 'react'
 import { useState } from "react";
-import logoImg from "../../images/bg-intro-desktop.svg";
-import HamburgerIcon from "../../images/icon-hamburger.svg";
-import CloseIcon from "../../images/icon-close.svg";
+import logoImg from "../../assets/images/bg-intro-desktop.svg";
+import HamburgerIcon from "../../assets/images/icon-hamburger.svg";
+import CloseIcon from "../../assets/images/icon-close.svg";
 
 const Navbar = () => {
 	const [showHamburger, setShowHamburger] = useState(true);
