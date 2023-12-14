@@ -1,4 +1,4 @@
-import Navbar from "./assets/components/nabvar/Navbar"
+import Navbar from "./components/nabvar/Navbar"
 
 
 const App = () => {
